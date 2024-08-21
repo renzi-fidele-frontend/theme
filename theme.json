@@ -20,23 +20,29 @@
             {
                "name": "Base",
                "slug": "base",
-               "color": "#ffffff"
+               "color": "#FFFFF8"
             },
             {
-               "name": "Base / Two",
-               "slug": "base-2",
-               "color": "#e6e0d8"
+               "name": "Pink / Theme",
+               "slug": "pink-theme",
+               "color": "#E01E5A"
             },
             {
-               "name": "Contrast",
-               "slug": "contrast",
-               "color": "#040405"
+               "name": "Text",
+               "slug": "text",
+               "color": "#23000D"
             },
             {
-               "name": "Contrast / Two",
-               "slug": "contrast-2",
-               "color": "#213317"
+               "name": "Orange / Theme",
+               "slug": "orange-theme",
+               "color": "#E8813C"
             },
+            {
+               "name": "Yellow / Theme",
+               "slug": "yellow-theme",
+               "color": "#ECB22D"
+            },
+
             {
                "name": "Accent",
                "slug": "accent",
@@ -50,6 +56,11 @@
             {
                "name": "Accent / Three",
                "slug": "accent-3",
+               "color": "#213317"
+            },
+            {
+               "name": "Contrast / Two",
+               "slug": "contrast-2",
                "color": "#213317"
             }
          ]
@@ -247,7 +258,7 @@
          "lineHeight": "var:custom|line-height|default"
       },
       "color": {
-         "text": "var:preset|color|contrast",
+         "text": "var:preset|color|text",
          "background": "var:preset|color|base"
       },
       "css": "",
