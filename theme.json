@@ -134,58 +134,59 @@
          "fluid": false,
          "fontFamilies": [
             {
-               "name": "Cuerpo (Montserrat)",
+               "name": "Ubuntu",
                "slug": "body",
-               "fontFamily": "Montserrat, sans-serif",
+               "fontFamily": "Ubuntu, sans-serif",
                "fontFace": [
                   {
-                     "fontFamily": "Montserrat",
+                     "fontFamily": "Ubuntu",
+                     "fontWeight": "300",
+                     "fontStyle": "normal",
+                     "src": ["file:./assets/fonts/Ubuntu/Ubuntu-Light.ttf"]
+                  },
+                  {
+                     "fontFamily": "Ubuntu",
+                     "fontWeight": "300",
+                     "fontStyle": "italic",
+                     "src": ["file:./assets/fonts/Ubuntu/Ubuntu-LightItalic.ttf"]
+                  },
+                  {
+                     "fontFamily": "Ubuntu",
                      "fontWeight": "400",
                      "fontStyle": "normal",
-                     "src": ["file:./assets/fonts/montserrat/montserrat-400-normal.woff2"]
+                     "src": ["file:./assets/fonts/Ubuntu/Ubuntu-Regular.ttf"]
                   },
                   {
-                     "fontFamily": "Montserrat",
+                     "fontFamily": "Ubuntu",
                      "fontWeight": "400",
                      "fontStyle": "italic",
-                     "src": ["file:./assets/fonts/montserrat/montserrat-400-italic.woff2"]
+                     "src": ["file:./assets/fonts/Ubuntu/Ubuntu-Italic.ttf"]
                   },
                   {
-                     "fontFamily": "Montserrat",
+                     "fontFamily": "Ubuntu",
+                     "fontWeight": "500",
+                     "fontStyle": "normal",
+                     "src": ["file:./assets/fonts/Ubuntu/Ubuntu-Medium.ttf"]
+                  },
+                  {
+                     "fontFamily": "Ubuntu",
+                     "fontWeight": "500",
+                     "fontStyle": "italic",
+                     "src": ["file:./assets/fonts/Ubuntu/Ubuntu-MediumItalic.ttf"]
+                  },
+                  {
+                     "fontFamily": "Ubuntu",
                      "fontWeight": "600",
                      "fontStyle": "normal",
-                     "src": ["file:./assets/fonts/montserrat/montserrat-600-normal.woff2"]
+                     "src": ["file:./assets/fonts/Ubuntu/Ubuntu-Bold.ttf"]
                   },
                   {
-                     "fontFamily": "Montserrat",
+                     "fontFamily": "Ubuntu",
                      "fontWeight": "600",
                      "fontStyle": "italic",
-                     "src": ["file:./assets/fonts/montserrat/montserrat-600-italic.woff2"]
+                     "src": ["file:./assets/fonts/Ubuntu/Ubuntu-BoldItalic.ttf"]
                   }
                ]
-            },
-            {
-               "name": "Encabezados (Lora)",
-               "slug": "heading",
-               "fontFamily": "Lora, serif",
-               "fontFace": [
-                  {
-                     "fontFamily": "Lora",
-                     "fontWeight": "600",
-                     "fontStyle": "normal",
-                     "src": ["file:./assets/fonts/lora/lora-600-normal.woff2"]
-                  }
-               ]
-            },
-            {
-               "name": "System Sans-Serif",
-               "slug": "system-sans-serif",
-               "fontFamily": "-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif"
-            },
-            {
-               "name": "System Serif",
-               "slug": "system-serif",
-               "fontFamily": "Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol"
             }
          ],
          "//": "These font sizes are fluid, and generated using Utopia's fluid type scale calculator. URL: https://utopia.fyi/type/calculator?c=375,18,1.2,1920,20,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12",
