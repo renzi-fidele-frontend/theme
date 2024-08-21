@@ -1,0 +1,16 @@
+/*
+Theme Name:   Lidia Ruiz Revilla
+Description:  Custom child theme for twentytwentyfour
+Author:       Marta Torre
+Author URI:   https://martatorre.dev
+Template:     twentytwentyfour
+Version:      1.0.
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+.frameHome{
+	margin-bottom:-45px;
+	z-index:3;
+	position:relative;
+}
