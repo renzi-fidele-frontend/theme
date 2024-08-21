@@ -191,44 +191,39 @@
          "//": "These font sizes are fluid, and generated using Utopia's fluid type scale calculator. URL: https://utopia.fyi/type/calculator?c=375,18,1.2,1920,20,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12",
          "fontSizes": [
             {
+               "name": "xxs",
+               "slug": "xxs",
+               "size": "1rem"
+            },
+            {
                "name": "xs",
                "slug": "xs",
-               "size": "clamp(0.7813rem, 0.7767rem + 0.0194vw, 0.8rem)"
+               "size": "1.1875rem"
             },
             {
                "name": "s",
                "slug": "s",
-               "size": "clamp(0.9375rem, 0.9223rem + 0.0647vw, 1rem)"
+               "size": "1.25rem"
             },
             {
                "name": "m",
                "slug": "m",
-               "size": "clamp(1.125rem, 1.0947rem + 0.1294vw, 1.25rem)"
+               "size": "1.4375rem"
             },
             {
                "name": "l",
                "slug": "l",
-               "size": "clamp(1.35rem, 1.2984rem + 0.2201vw, 1.5625rem)"
+               "size": "1.875rem"
             },
             {
                "name": "xl",
                "slug": "xl",
-               "size": "clamp(1.62rem, 1.5391rem + 0.345vw, 1.9531rem)"
+               "size": "2.5rem"
             },
             {
-               "name": "2xl",
+               "name": "xxl",
                "slug": "xxl",
-               "size": "clamp(1.944rem, 1.8233rem + 0.5151vw, 2.4414rem)"
-            },
-            {
-               "name": "3xl",
-               "slug": "xxxl",
-               "size": "clamp(2.3328rem, 2.1583rem + 0.7446vw, 3.0518rem)"
-            },
-            {
-               "name": "4xl",
-               "slug": "xxxxl",
-               "size": "clamp(2.7994rem, 2.5529rem + 1.0515vw, 3.8147rem)"
+               "size": "2.8125rem"
             }
          ]
       },
@@ -374,49 +369,6 @@
          }
       },
       "blocks": {
-         "core/archives": {},
-         "core/audio": {},
-         "core/avatar": {},
-         "core/block": {},
-         "core/button": {},
-         "core/buttons": {},
-         "core/calendar": {},
-         "core/categories": {},
-         "core/code": {},
-         "core/column": {},
-         "core/columns": {},
-         "core/comment-author-avatar": {},
-         "core/comment-author-name": {},
-         "core/comment-content": {},
-         "core/comment-date": {},
-         "core/comment-edit-link": {},
-         "core/comment-reply-link": {},
-         "core/comments": {},
-         "core/comments-pagination": {},
-         "core/comments-pagination-next": {},
-         "core/comments-pagination-numbers": {},
-         "core/comments-pagination-previous": {},
-         "core/comments-title": {},
-         "core/comment-template": {},
-         "core/cover": {},
-         "core/details": {},
-         "core/embed": {},
-         "core/file": {},
-         "core/freeform": {},
-         "core/gallery": {},
-         "core/group": {},
-         "core/heading": {},
-         "core/home-link": {},
-         "core/html": {},
-         "core/image": {},
-         "core/latest-comments": {},
-         "core/latest-posts": {},
-         "core/list": {},
-         "core/list-item": {},
-         "core/loginout": {},
-         "core/media-text": {},
-         "core/missing": {},
-         "core/more": {},
          "core/navigation": {
             "typography": {
                "fontWeight": "var:custom|font-weight|body-bold",
@@ -437,81 +389,7 @@
                   }
                }
             }
-         },
-         "core/navigation-link": {},
-         "core/navigation-submenu": {},
-         "core/nextpage": {},
-         "core/page-list": {},
-         "core/page-list-item": {},
-         "core/paragraph": {},
-         "core/post-author": {},
-         "core/post-author-biography": {},
-         "core/post-author-name": {},
-         "core/post-comment": {},
-         "core/post-comments-count": {},
-         "core/post-comments-form": {},
-         "core/post-comments-link": {},
-         "core/post-content": {},
-         "core/post-date": {},
-         "core/post-excerpt": {},
-         "core/post-featured-image": {},
-         "core/post-navigation-link": {},
-         "core/post-template": {},
-         "core/post-terms": {},
-         "core/post-time-to-read": {},
-         "core/post-title": {},
-         "core/preformatted": {},
-         "core/pullquote": {},
-         "core/query": {},
-         "core/query-no-results": {},
-         "core/query-pagination": {},
-         "core/query-pagination-next": {},
-         "core/query-pagination-numbers": {},
-         "core/query-pagination-previous": {},
-         "core/query-title": {},
-         "core/quote": {},
-         "core/read-more": {},
-         "core/rss": {},
-         "core/search": {},
-         "core/separator": {},
-         "core/shortcode": {},
-         "core/site-logo": {},
-         "core/site-tagline": {},
-         "core/site-title": {},
-         "core/social-link": {},
-         "core/social-links": {},
-         "core/spacer": {},
-         "core/table": {},
-         "core/table-of-contents": {},
-         "core/tag-cloud": {},
-         "core/template-part": {},
-         "core/term-description": {},
-         "core/text-columns": {},
-         "core/verse": {},
-         "core/video": {},
-         "core/widget-area": {},
-         "core/legacy-widget": {},
-         "core/widget-group": {}
+         }
       }
-   },
-   "customTemplates": [
-      {
-         "name": "page-dashboard",
-         "title": "Página del Dashboard",
-         "postTypes": ["page"]
-      }
-   ],
-   "templateParts": [
-      {
-         "area": "header",
-         "name": "header",
-         "title": "Header"
-      },
-      {
-         "area": "footer",
-         "name": "footer",
-         "title": "Footer"
-      }
-   ],
-   "patterns": []
+   }
 }
