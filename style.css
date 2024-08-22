@@ -9,9 +9,22 @@ License:      GNU General Public License v2 or later
 License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 */
 
-.frameHome{
-	margin-bottom:-45px;
-	z-index:3;
-	position:relative;
+.frameHome {
+   margin-bottom: -45px;
+   z-index: 3;
+   position: relative;
 }
 
+.current-menu-item {
+   text-decoration: underline !important;
+   color: #e01e5a !important;
+}
+
+#languageCt {
+   width: fit-content !important;
+}
+
+.yellow-bullet {
+   width: 80px;
+   margin-inline: auto !important;
+}

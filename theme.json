@@ -33,6 +33,11 @@
                "color": "#23000D"
             },
             {
+               "name": "Text / White",
+               "slug": "text-white",
+               "color": "#FFFFF7"
+            },
+            {
                "name": "Orange / Theme",
                "slug": "orange-theme",
                "color": "#E8813C"
@@ -273,13 +278,15 @@
          "h1": {
             "typography": {
                "fontSize": "var:preset|font-size|xxxxl",
-               "lineHeight": "1.1"
+               "lineHeight": "1.1",
+               "fontWeight": "300"
             }
          },
          "h2": {
             "typography": {
                "fontSize": "var:preset|font-size|xxxl",
-               "lineHeight": "1.2"
+               "lineHeight": "1.2",
+               "fontWeight": "500"
             }
          },
          "h3": {
