@@ -23,9 +23,9 @@
                "color": "#FFFFF8"
             },
             {
-               "name": "Pink / Theme",
-               "slug": "pink-theme",
-               "color": "#E01E5A"
+               "name": "Accent",
+               "slug": "accent",
+               "color": "#b97900"
             },
             {
                "name": "Text",
@@ -47,12 +47,12 @@
                "slug": "yellow-theme",
                "color": "#ECB22D"
             },
-
             {
-               "name": "Accent",
-               "slug": "accent",
-               "color": "#b97900"
+               "name": "Pink / Theme",
+               "slug": "pink-theme",
+               "color": "#E01E5A"
             },
+
             {
                "name": "Accent / Two",
                "slug": "accent-2",
@@ -344,7 +344,7 @@
             },
             "typography": {
                "fontSize": "var:preset|font-size|s",
-               "fontWeight": "var:custom|font-weight|body-bold",
+               "fontWeight": "500",
                "lineHeight": "var:custom|line-height|small",
                "textDecoration": "none",
                "textTransform": "uppercase"

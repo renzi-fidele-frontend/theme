@@ -4,7 +4,7 @@ function enqueue_swiperjs() {
     wp_enqueue_style( 'swiperjs-css', 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css', array(), '11.0.0' );
 
     // Enqueue SwiperJS JavaScript
-    wp_enqueue_script( 'swiperjs-js', 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js', array(), '11.0.0', true );
+    wp_enqueue_script( 'swiperjs-js', 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js', array(), '11.0.0');
 }
 add_action( 'wp_enqueue_scripts', 'enqueue_swiperjs' );
 

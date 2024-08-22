@@ -21,10 +21,28 @@ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 }
 
 #languageCt {
-   width: fit-content !important;
+	width: fit-content !important;
 }
 
 .yellow-bullet {
-   width: 80px;
-   margin-inline: auto !important;
+	width: 80px;
+	margin-inline: auto !important;
+}
+
+.text-white {
+color: #FFFFF8 !important;}
+
+#lidiaPhoto {
+	margin-bottom: -1.5rem;
+}
+
+.space {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.jsc {
+	justify-content: center !important;
 }
