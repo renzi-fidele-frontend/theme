@@ -52,7 +52,11 @@
                "slug": "pink-theme",
                "color": "#E01E5A"
             },
-
+            {
+               "name": "Peach / Theme",
+               "slug": "peach-theme",
+               "color": "#E44F4B"
+            },
             {
                "name": "Accent / Two",
                "slug": "accent-2",
