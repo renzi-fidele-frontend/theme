@@ -9,6 +9,10 @@ License:      GNU General Public License v2 or later
 License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 */
 
+html {
+   overflow-x: hidden;
+}
+
 .frameHome {
    margin-bottom: -45px;
    z-index: 3;
@@ -21,28 +25,43 @@ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 }
 
 #languageCt {
-	width: fit-content !important;
+   width: fit-content !important;
 }
 
 .yellow-bullet {
-	width: 80px;
-	margin-inline: auto !important;
+   width: 80px;
+   margin-inline: auto !important;
 }
 
 .text-white {
-color: #FFFFF8 !important;}
+   color: #fffff8 !important;
+}
 
 #lidiaPhoto {
-	margin-bottom: -1.5rem;
+   margin-bottom: -1.5rem;
 }
 
 .space {
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
 }
 
 .jsc {
-	justify-content: center !important;
+   justify-content: center !important;
+}
+
+#frame2 {
+   position: absolute;
+   right: -10rem;
+   bottom: -9.5rem;
+}
+
+#lidiaPhoto {
+   margin-bottom: -45px;
+}
+
+.desc {
+   width: fit-content;
 }
