@@ -70,11 +70,35 @@ html {
    width: fit-content;
 }
 
+@media screen and (max-width: 1207px) {
+   .rgt {
+      padding-bottom: 4.4rem !important;
+   }
+
+   .rgt div {
+      padding-right: 0 !important;
+   }
+}
+
+@media screen and (max-width: 1000px) {
+   sec5 {
+      margin-inline: 0 !important;
+   }
+}
+
 @media screen and (max-width: 1000px) {
    .homeTop {
       display: flex !important;
       flex-direction: column-reverse !important;
    }
+   .homeTop img {
+      margin-top: 2rem !important;
+   }
+
+   .rgt {
+      padding-bottom: 0 !important;
+   }
+
    .entry-content {
       padding-inline: 4rem !important;
    }
@@ -87,6 +111,14 @@ html {
       flex-direction: column-reverse !important;
    }
 }
+
+@media screen and (max-width: 600px) {
+   .entry-content {
+      padding-inline: 2rem !important;
+   }
+}
+
+/*  ------------------------------------ */
 
 /*  Extend navbar breakpoint  */
 body .wp-block-navigation__responsive-container-open:not(.always-shown) {
