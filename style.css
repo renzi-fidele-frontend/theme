@@ -62,6 +62,45 @@ html {
    margin-bottom: -45px;
 }
 
+#teamPhoto {
+   margin-bottom: -30px;
+}
+
 .desc {
    width: fit-content;
+}
+
+@media screen and (max-width: 1000px) {
+   .homeTop {
+      display: flex !important;
+      flex-direction: column-reverse !important;
+   }
+   .entry-content {
+      padding-inline: 4rem !important;
+   }
+
+   .text-subtit {
+      margin-inline: 0 !important;
+   }
+
+   .pink-section {
+      flex-direction: column-reverse !important;
+   }
+}
+
+/*  Extend navbar breakpoint  */
+body .wp-block-navigation__responsive-container-open:not(.always-shown) {
+   display: block !important;
+}
+body .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) {
+   display: none !important;
+}
+
+@media (min-width: 1000px) {
+   body .wp-block-navigation__responsive-container-open:not(.always-shown) {
+      display: none !important;
+   }
+   body .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) {
+      display: block !important;
+   }
 }
