@@ -16,3 +16,11 @@ function my_child_theme_enqueue_styles() {
     wp_enqueue_style( 'child-style', get_stylesheet_uri(), array('parent-style') );
 }
 add_action( 'wp_enqueue_scripts', 'my_child_theme_enqueue_styles' );
+
+function my_theme_script() {
+    // Enqueue parent theme's stylesheet
+    wp_enqueue_script( 'parent-style', get_template_directory_uri() . '/js/script.js', array(), null, true );
+    
+    
+}
+add_action( 'wp_enqueue_scripts', 'my_theme_script' );

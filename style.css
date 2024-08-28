@@ -9,6 +9,11 @@ License:      GNU General Public License v2 or later
 License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 */
 
+:root {
+   --swiper-navigation-sides-offset: 4rem !important;
+   --swiper-navigation-size: 21px;
+}
+
 html {
    overflow-x: hidden;
 }
@@ -70,6 +75,18 @@ html {
    width: fit-content;
 }
 
+.swiper-button-next,
+.swiper-button-prev {
+   background-color: #e01e5a;
+   color: white;
+   border-radius: 50%;
+   padding: 20px;
+}
+
+#SwiperTestemunhos .swiper-slide {
+   margin-right: 2rem !important;
+}
+
 @media screen and (max-width: 1207px) {
    .rgt {
       padding-bottom: 4.4rem !important;
@@ -80,8 +97,8 @@ html {
    }
 }
 
-@media screen and (max-width: 1000px) {
-   sec5 {
+@media screen and (max-width: 1050px) {
+   .sec5 > * {
       margin-inline: 0 !important;
    }
 }
