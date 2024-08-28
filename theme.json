@@ -209,7 +209,6 @@
                ]
             }
          ],
-         "//": "These font sizes are fluid, and generated using Utopia's fluid type scale calculator. URL: https://utopia.fyi/type/calculator?c=375,18,1.2,1920,20,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12",
          "fontSizes": [
             {
                "name": "xxs",
@@ -234,17 +233,17 @@
             {
                "name": "l",
                "slug": "l",
-               "size": "clamp(1.775rem, 1.7125rem + 0.2vw, 1.875rem)"
+               "size": "clamp(1.6rem, 1.4281rem + 0.55vw, 1.875rem)"
             },
             {
                "name": "xl",
                "slug": "xl",
-               "size": "clamp(2.305rem, 2.1831rem + 0.39vw, 2.5rem)"
+               "size": "clamp(1.8rem, 1.3625rem + 1.4vw, 2.5rem)"
             },
             {
                "name": "xxl",
                "slug": "xxl",
-               "size": "clamp(2.6595rem, 2.5639rem + 0.306vw, 2.8125rem)"
+               "size": "clamp(2.3rem, 1.9797rem + 1.025vw, 2.8125rem)"
             }
          ]
       },

@@ -145,6 +145,13 @@ html {
    }
 }
 
+@media screen and (max-width: 480px) {
+   .pink-section {
+      padding-inline: 1.5rem !important;
+      padding-top: 2rem !important;
+   }
+}
+
 /*  ------------------------------------ */
 
 /*  Extend navbar breakpoint  */
