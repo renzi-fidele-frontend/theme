@@ -64,7 +64,7 @@ html {
 }
 
 #lidiaPhoto {
-   margin-bottom: -45px;
+   margin-bottom: -57px;
 }
 
 #teamPhoto {
@@ -98,6 +98,12 @@ html {
 
    .rgt p {
       padding-right: 0 !important;
+   }
+}
+
+@media screen and (max-width: 1101px) {
+   .rgt {
+      padding-bottom: 2rem !important;
    }
 }
 

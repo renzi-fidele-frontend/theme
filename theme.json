@@ -214,37 +214,37 @@
             {
                "name": "xxs",
                "slug": "xxs",
-               "size": "1rem"
+               "size": "clamp(0.8rem, 0.675rem + 0.4vw, 1rem)"
             },
             {
                "name": "xs",
                "slug": "xs",
-               "size": "1.1875rem"
+               "size": "clamp(0.975rem, 0.8422rem + 0.425vw, 1.1875rem)"
             },
             {
                "name": "s",
                "slug": "s",
-               "size": "1.25rem"
+               "size": "clamp(1.1rem, 1.0063rem + 0.3vw, 1.25rem)"
             },
             {
                "name": "m",
                "slug": "m",
-               "size": "1.4375rem"
+               "size": "clamp(1.3rem, 1.2141rem + 0.275vw, 1.4375rem)"
             },
             {
                "name": "l",
                "slug": "l",
-               "size": "1.875rem"
+               "size": "clamp(1.775rem, 1.7125rem + 0.2vw, 1.875rem)"
             },
             {
                "name": "xl",
                "slug": "xl",
-               "size": "2.5rem"
+               "size": "clamp(2.305rem, 2.1831rem + 0.39vw, 2.5rem)"
             },
             {
                "name": "xxl",
                "slug": "xxl",
-               "size": "2.8125rem"
+               "size": "clamp(2.6595rem, 2.5639rem + 0.306vw, 2.8125rem)"
             }
          ]
       },
