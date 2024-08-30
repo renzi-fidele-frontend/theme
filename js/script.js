@@ -1,28 +1,29 @@
 document.addEventListener("DOMContentLoaded", function () {
+   const swiper = new Swiper("#SwiperParceiro", {
+      slidesPerView: "auto",
+      breakpoints: { 500: { slidesPerView: 2 }, 1200: { slidesPerView: 5 } },
+      slideToClickedSlide: true,
+      rewind: true,
+      centeredSlides: true,
+      navigation: {
+         nextEl: ".swiper-button-next",
+         prevEl: ".swiper-button-prev",
+      },
+   });
+
    const swipertest = new Swiper("#SwiperTestemunhos", {
-      slidesPerView: 1,
+      slidesPerView: "auto",
       spaceBetween: 40,
-      breakpoints: { 600: { slidesPerView: 2 }, 1200: { slidesPerView: 3 } },
+      breakpoints: { 700: { slidesPerView: 2 }, 1200: { slidesPerView: "auto" } },
+      rewind: true,
       slidesCentered: true,
-      // Navigation arrows
+      slideToClickedSlide: true,
       navigation: {
          nextEl: ".swiper-button-next",
          prevEl: ".swiper-button-prev",
       },
       autoplay: {
          delay: 5000,
-      },
-      rewind: true,
-   });
-
-   const swiper = new Swiper("#SwiperParceiro", {
-      slidesPerView: 5,
-      rewind: true,
-      centeredSlides: true,
-      // Navigation arrows
-      navigation: {
-         nextEl: ".swiper-button-next",
-         prevEl: ".swiper-button-prev",
       },
    });
 });

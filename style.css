@@ -24,6 +24,10 @@ html {
    position: relative;
 }
 
+.mx-auto {
+   margin-inline: auto !important;
+}
+
 .current-menu-item {
    text-decoration: underline !important;
    color: #e01e5a !important;
@@ -84,7 +88,7 @@ html {
 }
 
 #SwiperTestemunhos .swiper-slide {
-   margin-right: 2rem !important;
+   margin-left: 2rem !important;
 }
 
 @media screen and (max-width: 1207px) {
@@ -137,10 +141,27 @@ html {
    .pink-section {
       flex-direction: column-reverse !important;
    }
+
+   :root {
+      --swiper-navigation-sides-offset: 0 !important;
+   }
+}
+
+@media screen and (max-width: 700px) {
+   .sec5 {
+      margin-inline: -2rem !important;
+   }
+
+   .sec5 p {
+      margin-top: 0 !important;
+   }
 }
 
 @media screen and (max-width: 600px) {
    .entry-content {
+      padding-inline: 2rem !important;
+   }
+   .sec5 {
       padding-inline: 2rem !important;
    }
 }
@@ -149,6 +170,12 @@ html {
    .pink-section {
       padding-inline: 1.5rem !important;
       padding-top: 2rem !important;
+   }
+}
+
+@media screen and (max-width: 380px) {
+   .sec5 {
+      padding: 1.4rem !important;
    }
 }
 
