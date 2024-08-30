@@ -145,6 +145,20 @@ html {
    :root {
       --swiper-navigation-sides-offset: 0 !important;
    }
+
+   .sec-ft {
+      flex-direction: column-reverse !important;
+      /*align-items: start !important;*/
+   }
+
+   .sec-ft p {
+      margin-right: 0 !important;
+      text-align: center;
+   }
+
+   .footLinks {
+      justify-content: center !important;
+   }
 }
 
 @media screen and (max-width: 700px) {
@@ -155,6 +169,11 @@ html {
    .sec5 p {
       margin-top: 0 !important;
    }
+
+   #teamLidia img {
+      object-fit: cover !important;
+      height: 360px !important;
+   }
 }
 
 @media screen and (max-width: 600px) {
@@ -164,18 +183,45 @@ html {
    .sec5 {
       padding-inline: 2rem !important;
    }
+
+   .homeTop h1 {
+      padding-right: 0 !important;
+   }
+}
+
+@media screen and (max-width: 500px) {
+   #teamLidia img {
+      height: 290px !important;
+   }
 }
 
 @media screen and (max-width: 480px) {
    .pink-section {
       padding-inline: 1.5rem !important;
       padding-top: 2rem !important;
+      margin-inline: -1rem !important;
+   }
+
+   .sec-ft p {
+      text-align: start;
+   }
+
+   .footLinks {
+      justify-content: start !important;
+   }
+
+   .footLinks a {
+      padding-left: 0 !important;
    }
 }
 
 @media screen and (max-width: 380px) {
    .sec5 {
       padding: 1.4rem !important;
+   }
+
+   .entry-content {
+      padding-inline: 1.4rem !important;
    }
 }
 
