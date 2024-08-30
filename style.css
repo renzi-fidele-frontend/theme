@@ -61,6 +61,10 @@ html {
    justify-content: center !important;
 }
 
+.w-fit {
+   width: fit-content !important;
+}
+
 #frame2 {
    position: absolute;
    right: -10rem;
@@ -79,6 +83,10 @@ html {
    width: fit-content;
 }
 
+.swiper-wrapper {
+   max-width: 100% !important;
+}
+
 .swiper-button-next,
 .swiper-button-prev {
    background-color: #e01e5a;
@@ -87,8 +95,17 @@ html {
    padding: 20px;
 }
 
+.swiper-slide {
+   margin-block-start: 0 !important;
+}
+
 #SwiperTestemunhos .swiper-slide {
    margin-left: 2rem !important;
+}
+
+#SwiperTestemunhos .swiper-slide > *,
+#SwiperParceiro .swiper-slide > * {
+   width: fit-content !important;
 }
 
 @media screen and (max-width: 1207px) {
