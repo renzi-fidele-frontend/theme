@@ -131,6 +131,20 @@ html {
    .rgt p {
       padding-right: 0 !important;
    }
+
+   .brown-section > div {
+      display: flex !important;
+      flex-wrap: wrap !important;
+   }
+
+   .brown-section > div > div {
+      max-width: 100% !important;
+      width: 48% !important;
+   }
+
+   .brown-section > div div {
+      max-width: 100% !important;
+   }
 }
 
 @media screen and (max-width: 1101px) {
@@ -142,6 +156,11 @@ html {
 @media screen and (max-width: 1050px) {
    .sec5 > * {
       margin-inline: 0 !important;
+   }
+
+   .brown-section > div > div {
+      max-width: 100% !important;
+      width: 46% !important;
    }
 }
 
@@ -196,6 +215,12 @@ html {
 
    .footLinks {
       justify-content: center !important;
+   }
+}
+
+@media screen and (max-width: 875px) {
+   .brown-section > div > div {
+      width: 100% !important;
    }
 }
 
@@ -256,6 +281,12 @@ html {
 
    .footLinks a {
       padding-left: 0 !important;
+   }
+}
+
+@media screen and (max-width: 440px) {
+   .brown-section {
+      margin-inline: -1.8rem !important;
    }
 }
 
