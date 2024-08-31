@@ -216,6 +216,14 @@ html {
    .footLinks {
       justify-content: center !important;
    }
+
+   .sect-4 > div {
+      flex-wrap: wrap !important;
+   }
+
+   .sect-4 > div > div {
+      flex-basis: 100% !important;
+   }
 }
 
 @media screen and (max-width: 875px) {
@@ -243,6 +251,10 @@ html {
       object-fit: cover !important;
       height: 360px !important;
    }
+
+   .serviceTop h1 {
+      max-width: 100%;
+   }
 }
 
 @media screen and (max-width: 600px) {
@@ -255,6 +267,10 @@ html {
 
    .homeTop h1 {
       padding-right: 0 !important;
+   }
+
+   .subt-0 {
+      padding-inline: 0 !important;
    }
 }
 
