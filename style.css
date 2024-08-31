@@ -108,6 +108,17 @@ html {
    width: fit-content !important;
 }
 
+@media screen and (max-width: 1250px) {
+   .serviceTop {
+      display: flex !important;
+      flex-direction: column-reverse !important;
+      padding-inline: 3rem;
+   }
+   .serviceTop h1 {
+      max-width: 80%;
+   }
+}
+
 @media screen and (max-width: 1207px) {
    .rgt {
       padding-bottom: 4.4rem !important;
@@ -138,9 +149,14 @@ html {
    .homeTop {
       display: flex !important;
       flex-direction: column-reverse !important;
+      padding-inline: 4rem;
    }
    .homeTop img {
       margin-top: 2rem !important;
+   }
+
+   .serviceTop {
+      padding-inline: 0;
    }
 
    .rgt {
@@ -155,12 +171,17 @@ html {
       margin-inline: 0 !important;
    }
 
+   .swiper-button-next,
+   .swiper-button-prev {
+      padding: 14px;
+   }
+
    .pink-section {
       flex-direction: column-reverse !important;
    }
 
    :root {
-      --swiper-navigation-sides-offset: 0 !important;
+      --swiper-navigation-sides-offset: 1rem !important;
    }
 
    .sec-ft {
@@ -175,6 +196,12 @@ html {
 
    .footLinks {
       justify-content: center !important;
+   }
+}
+
+@media screen and (max-width: 800px) {
+   .homeTop {
+      padding-inline: 0;
    }
 }
 
