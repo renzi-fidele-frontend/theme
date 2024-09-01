@@ -333,6 +333,16 @@ html {
    .footLinks a {
       padding-left: 0 !important;
    }
+
+   .service-pink {
+      width: fit-content !important;
+      max-width: initial !important;
+      margin-inline: -1.8rem !important;
+   }
+
+   .service-pink p {
+      padding-right: 0 !important;
+   }
 }
 
 @media screen and (max-width: 440px) {
