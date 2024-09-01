@@ -75,8 +75,8 @@ html {
    margin-bottom: -57px;
 }
 
-#teamPhoto {
-   margin-bottom: -30px;
+.serviceTeamPhoto {
+   margin-bottom: -30px !important;
 }
 
 .desc {
@@ -162,6 +162,14 @@ html {
       max-width: 100% !important;
       width: 46% !important;
    }
+
+   .service-pink {
+      width: calc(100% - 3rem) !important;
+   }
+
+   .service-pink > div {
+      flex-direction: column-reverse !important;
+   }
 }
 
 @media screen and (max-width: 1000px) {
@@ -241,6 +249,10 @@ html {
 
 @media screen and (max-width: 875px) {
    .brown-section > div > div {
+      width: 100% !important;
+   }
+
+   .service-pink {
       width: 100% !important;
    }
 }
