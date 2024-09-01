@@ -228,6 +228,13 @@ html {
    .sect-4 .last_ct {
       margin-top: 2rem !important;
    }
+
+   .service-col-3 {
+      flex-wrap: wrap !important;
+   }
+   .service-col-3 > div {
+      flex-basis: 100% !important;
+   }
 }
 
 @media screen and (max-width: 875px) {
