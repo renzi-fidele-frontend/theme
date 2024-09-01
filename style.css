@@ -224,6 +224,10 @@ html {
    .sect-4 > div > div {
       flex-basis: 100% !important;
    }
+
+   .sect-4 .last_ct {
+      margin-top: 2rem !important;
+   }
 }
 
 @media screen and (max-width: 875px) {
@@ -235,6 +239,11 @@ html {
 @media screen and (max-width: 800px) {
    .homeTop {
       padding-inline: 0;
+   }
+
+   .team-service img {
+      object-fit: cover !important;
+      height: 380px !important;
    }
 }
 
@@ -277,6 +286,11 @@ html {
 @media screen and (max-width: 500px) {
    #teamLidia img {
       height: 290px !important;
+   }
+
+   .team-service img {
+      object-fit: cover !important;
+      height: 280px !important;
    }
 }
 
