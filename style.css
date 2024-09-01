@@ -229,10 +229,12 @@ html {
       margin-top: 2rem !important;
    }
 
-   .service-col-3 {
+   .service-col-3,
+   .service-col-4 {
       flex-wrap: wrap !important;
    }
-   .service-col-3 > div {
+   .service-col-3 > div,
+   .service-col-4 > div {
       flex-basis: 100% !important;
    }
 }
