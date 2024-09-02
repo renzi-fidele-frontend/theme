@@ -109,13 +109,18 @@ html {
 }
 
 @media screen and (max-width: 1250px) {
-   .serviceTop {
+   .serviceTop,
+   .infoTop {
       display: flex !important;
       flex-direction: column-reverse !important;
       padding-inline: 3rem;
    }
    .serviceTop h1 {
       max-width: 80%;
+   }
+
+   .infoTop > figure {
+      margin-top: 2rem !important;
    }
 }
 
@@ -182,8 +187,9 @@ html {
       margin-top: 2rem !important;
    }
 
-   .serviceTop {
-      padding-inline: 0;
+   .serviceTop,
+   .infoTop {
+      padding-inline: 0 !important;
    }
 
    .rgt {
@@ -312,6 +318,10 @@ html {
    .team-service img {
       object-fit: cover !important;
       height: 280px !important;
+   }
+
+   .infoTop h1 {
+      padding-right: 0 !important;
    }
 }
 
