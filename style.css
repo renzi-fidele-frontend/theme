@@ -150,6 +150,10 @@ html {
    .brown-section > div div {
       max-width: 100% !important;
    }
+
+   .contactBrown {
+      padding-inline: 4rem !important;
+   }
 }
 
 @media screen and (max-width: 1101px) {
@@ -291,6 +295,10 @@ html {
    .serviceTop h1 {
       max-width: 100%;
    }
+
+   .contactBrown {
+      padding-inline: 2rem !important;
+   }
 }
 
 @media screen and (max-width: 600px) {
@@ -357,6 +365,10 @@ html {
 
 @media screen and (max-width: 440px) {
    .brown-section {
+      margin-inline: -1.8rem !important;
+   }
+
+   .contactBrown {
       margin-inline: -1.8rem !important;
    }
 }
