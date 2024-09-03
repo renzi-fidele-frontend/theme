@@ -204,6 +204,14 @@ html {
    .service-pink > div {
       flex-direction: column-reverse !important;
    }
+
+   .about-brown > div {
+      flex-direction: column-reverse !important;
+   }
+
+   .about-brown figure {
+      margin-bottom: -6rem !important;
+   }
 }
 
 @media screen and (max-width: 1000px) {
@@ -400,7 +408,8 @@ html {
 
 @media screen and (max-width: 480px) {
    .pink-section,
-   .pink-about {
+   .pink-about,
+   .about-brown {
       padding-inline: 1.5rem !important;
       padding-top: 3rem !important;
       margin-inline: -1rem !important;
