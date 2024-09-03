@@ -171,6 +171,8 @@ html {
    .contactBrown {
       padding-inline: 4rem !important;
    }
+
+
 }
 
 @media screen and (max-width: 1101px) {
@@ -180,6 +182,10 @@ html {
 
    .pink-about {
       margin-inline: 6rem !important;
+   }
+
+   .about-4 {
+      flex-direction: column !important;
    }
 }
 
@@ -444,7 +450,7 @@ body .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-
 }
 
 body .wp-block-navigation__responsive-container {
-   padding-inline: 1rem !important;
+   padding: 1rem !important;
 }
 
 @media (min-width: 1000px) {
