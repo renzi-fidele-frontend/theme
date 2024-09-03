@@ -108,6 +108,15 @@ html {
    width: fit-content !important;
 }
 
+.globe-ico {
+   line-height: 0 !important;
+   margin-left: 2rem !important;
+}
+
+.right-nav > div {
+   gap: 1rem !important;
+}
+
 @media screen and (max-width: 1250px) {
    .serviceTop,
    .infoTop {
@@ -182,6 +191,12 @@ html {
 }
 
 @media screen and (max-width: 1000px) {
+   .globe-ico {
+      margin-left: 0 !important;
+   }
+
+ 
+
    .homeTop {
       display: flex !important;
       flex-direction: column-reverse !important;
@@ -316,6 +331,10 @@ html {
    .subt-0 {
       padding-inline: 0 !important;
    }
+
+   .logo img {
+      width: 150px !important;
+   }
 }
 
 @media screen and (max-width: 500px) {
@@ -370,6 +389,10 @@ html {
 
    .contactBrown {
       margin-inline: -1.8rem !important;
+   }
+
+   .globe-ico {
+      display: none !important;
    }
 }
 
