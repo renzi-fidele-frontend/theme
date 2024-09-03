@@ -191,11 +191,14 @@ html {
 }
 
 @media screen and (max-width: 1000px) {
+   .contact-about h6 {
+      padding-inline: 0 !important;
+
+   }
+
    .globe-ico {
       margin-left: 0 !important;
    }
-
- 
 
    .homeTop {
       display: flex !important;
@@ -394,6 +397,10 @@ html {
    .globe-ico {
       display: none !important;
    }
+
+   .right-nav {
+      gap: 1rem !important;
+   }
 }
 
 @media screen and (max-width: 380px) {
@@ -414,6 +421,10 @@ body .wp-block-navigation__responsive-container-open:not(.always-shown) {
 }
 body .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) {
    display: none !important;
+}
+
+body .wp-block-navigation__responsive-container {
+   padding-inline: 1rem !important;
 }
 
 @media (min-width: 1000px) {
