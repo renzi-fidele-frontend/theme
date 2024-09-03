@@ -46,10 +46,6 @@ html {
    color: #fffff8 !important;
 }
 
-#lidiaPhoto {
-   margin-bottom: -1.5rem;
-}
-
 .space {
    height: 100%;
    display: flex;
@@ -73,6 +69,10 @@ html {
 
 #lidiaPhoto {
    margin-bottom: -57px;
+}
+
+.contact-lidiaPhoto {
+   margin-bottom: -2rem !important;
 }
 
 .serviceTeamPhoto {
@@ -131,6 +131,14 @@ html {
    .infoTop > figure {
       margin-top: 2rem !important;
    }
+
+   .pink-about {
+      margin-inline: 9rem !important;
+   }
+
+   .pink-about > div {
+      flex-direction: column-reverse !important;
+   }
 }
 
 @media screen and (max-width: 1207px) {
@@ -169,6 +177,10 @@ html {
    .rgt {
       padding-bottom: 2rem !important;
    }
+
+   .pink-about {
+      margin-inline: 6rem !important;
+   }
 }
 
 @media screen and (max-width: 1050px) {
@@ -193,7 +205,6 @@ html {
 @media screen and (max-width: 1000px) {
    .contact-about h6 {
       padding-inline: 0 !important;
-
    }
 
    .globe-ico {
@@ -273,6 +284,10 @@ html {
    .service-col-4 > div {
       flex-basis: 100% !important;
    }
+
+   .pink-about {
+      margin-inline: 1rem !important;
+   }
 }
 
 @media screen and (max-width: 875px) {
@@ -293,6 +308,10 @@ html {
    .team-service img {
       object-fit: cover !important;
       height: 380px !important;
+   }
+
+   .pink-about {
+      margin-inline: 0 !important;
    }
 }
 
@@ -356,9 +375,10 @@ html {
 }
 
 @media screen and (max-width: 480px) {
-   .pink-section {
+   .pink-section,
+   .pink-about {
       padding-inline: 1.5rem !important;
-      padding-top: 2rem !important;
+      padding-top: 3rem !important;
       margin-inline: -1rem !important;
    }
 
