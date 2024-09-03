@@ -430,7 +430,7 @@ html {
    .service-pink {
       width: fit-content !important;
       max-width: initial !important;
-      margin-inline: -1.8rem !important;
+      margin-inline: -1.5rem !important;
    }
 
    .service-pink p {
@@ -440,11 +440,11 @@ html {
 
 @media screen and (max-width: 440px) {
    .brown-section {
-      margin-inline: -1.8rem !important;
+      margin-inline: -1.5rem !important;
    }
 
    .contactBrown {
-      margin-inline: -1.8rem !important;
+      margin-inline: -1.5rem !important;
    }
 
    .globe-ico {
