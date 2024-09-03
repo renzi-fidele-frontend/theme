@@ -171,8 +171,6 @@ html {
    .contactBrown {
       padding-inline: 4rem !important;
    }
-
-
 }
 
 @media screen and (max-width: 1101px) {
@@ -209,6 +207,10 @@ html {
 }
 
 @media screen and (max-width: 1000px) {
+   .cardLista {
+      display: none !important;
+   }
+
    .contact-about h6 {
       padding-inline: 0 !important;
    }
