@@ -207,6 +207,14 @@ html {
 }
 
 @media screen and (max-width: 1000px) {
+   .about-values {
+      flex-wrap: wrap;
+   }
+
+   .about-values > div {
+      flex-basis: 48% !important;
+   }
+
    .cardLista {
       display: none !important;
    }
@@ -343,6 +351,14 @@ html {
 
    .contactBrown {
       padding-inline: 2rem !important;
+   }
+
+   .about-values {
+      flex-wrap: wrap;
+   }
+
+   .about-values > div {
+      flex-basis: 100% !important;
    }
 }
 
